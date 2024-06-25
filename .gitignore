@@ -1,0 +1,42 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.cov
+
+# Temporary files
+*.tmp
+
+# IDE specific files
+.idea/
+*.swp
+
+# Node modules (if using Node for frontend)
+node_modules/
+
+# Vendor directory (comment if you are not using Go modules)
+vendor/
+
+# Go workspace file
+go.work
+
+# Build directory
+/build/
+
+# Environment variables
+.env
+
+# SQLite database files
+*.db
+
+# Logs
+*.log
+
+# MacOS-specific files
+.DS_Store
