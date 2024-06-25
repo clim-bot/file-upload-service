@@ -74,7 +74,6 @@ file-upload-service/
     ```
 
 ## API Endpoints
-- `POST /login`: Authenticate user and return a JWT.
 - `POST /upload`: Upload a file (protected route).
 - `GET /download/:id`: Download a file by ID (protected route).
 - `GET /files`: List all files (protected route).
